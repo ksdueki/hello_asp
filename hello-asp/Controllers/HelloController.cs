@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using hello_asp.Models;
 using Microsoft.AspNetCore.Mvc;
-
-using hello_asp.Models;
 
 namespace hello_asp.Controllers
 {
