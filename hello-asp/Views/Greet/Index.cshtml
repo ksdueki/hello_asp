@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Hola";
+}
+
+<h2>Index</h2>
+
+<form action="/Greet/Index" method="post">
+    <input type="text" name="name" value="" />
+    <input type="submit" />
+</form>
+
+<div>@ViewData["name"]さん、こんにちは！</div>
